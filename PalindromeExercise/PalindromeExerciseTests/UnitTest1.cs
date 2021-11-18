@@ -7,7 +7,7 @@ namespace PalindromeExerciseTests
     public class UnitTest1
     {
         [Theory]
-        [InlineData("racecar", true)]
+        [InlineData("Racecar", true)]
         [InlineData("basketball", false)]
         [InlineData("redivider", true)]
         [InlineData("reviver", true)]
